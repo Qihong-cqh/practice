@@ -1,0 +1,105 @@
+*{padding :0;margin:0;list-style: none;}
+
+.menubar{
+    margin-left:1200px;
+    clear: float;
+    height: 202px;
+}
+.menu{
+    font:14px "微软雅黑";
+    font-weight: bold;
+    color: rgb(51,51,51);
+    text-decoration: underline;
+    float:left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.menu-expand{
+    font:14px "微软雅黑";
+    height: 25px;width: 60px;
+    background-color: rgb(51,136,255);
+    color:white;
+    float: left;
+    margin-left: 18px;
+    margin-top: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+.logo{
+    text-align: center;
+}
+
+.search:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.search{
+    text-align: center;
+    width:700px;height:35px;
+    margin:0 auto;
+    position: relative;
+}
+form{
+    display: inline-block;
+}
+.text{
+    height:33px;
+    width: 540px;
+    border:  rgb(71,141,255) solid 1px;
+    padding-left: 10px;
+    float: left;
+}
+.submit{
+    border: none;
+    height: 35px;
+    width: 100px;
+    font: 15px "微软雅黑";
+    color:white;
+    background-color: rgb(51,133,255);
+    float: left;
+}
+.bd_camera{
+    
+    position: absolute;
+    right:132px;
+    bottom:9px;
+}
+.bd_twocode{
+    margin-top:270px;
+    text-align: center;
+}
+.bd_twocode h3{
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bd_twocode span{
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(185,185,185);
+}
+
+footer{
+    font-size:10px;
+    font-weight: thin;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top:40px;
+}
+
+.footer-top{
+    display: inline-block;
+}
+.footer-top li{
+    margin-right: 25px;
+    float: left;
+}
+footer a{
+    color:rgb(153,153,153);
+    
+}
+.footer-bottom{
+    margin:0 auto;
+    color:rgb(153,153,153);
+}
